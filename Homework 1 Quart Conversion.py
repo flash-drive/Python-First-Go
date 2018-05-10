@@ -20,6 +20,11 @@ quarts = input()
 # Call fucntion and hold output as list
 [gallon,pints,cups] = convert(quarts)
 
+# Round to two decimal places
+gallon = round(gallon,2)
+pints = round(pints,2)
+cups = round(cups,2)
+
 # Print output
 print('For every ' +str(quarts)+ ' quarts, you have '+str(gallon)+' gallons.')
 print('For every ' +str(quarts)+ ' quarts, you have '+str(pints)+' pints.')
