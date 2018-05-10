@@ -12,7 +12,7 @@ def convert(quarts):
     cups = 2 * pints
     return gallon, pints, cups
 
-# Handle's user input
+# Handle user input
 print('Input an integer or a float')
 print('This will be evaluated as quarts which will be converted to gallons, pints, and cups')
 quarts = input()
