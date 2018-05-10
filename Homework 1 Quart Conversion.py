@@ -12,18 +12,13 @@ def convert(quarts):
     cups = 2 * pints
     return gallon, pints, cups
 
-# Handle user input
+# Handle's user input
 print('Input an integer or a float')
 print('This will be evaluated as quarts which will be converted to gallons, pints, and cups')
 quarts = input()
 
 # Call fucntion and hold output as list
-placeHolder = list(convert(quarts))
-
-# Round to two decimal places
-gallon = round(placeHolder[0],2)
-pints = round(placeHolder[1],2)
-cups = round(placeHolder[2],2)
+[gallon,pints,cups] = convert(quarts)
 
 # Print output
 print('For every ' +str(quarts)+ ' quarts, you have '+str(gallon)+' gallons.')
