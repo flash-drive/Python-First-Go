@@ -2,7 +2,7 @@
 # Mark Tenorio 05/10/2018
 
 # Write a program that calculates the number of sides given an interior angle.
-# Recall that the formula is thet = (180(n-2))/n
+# Recall that the formula is theta = (180(n-2))/n
 
 # Function to calculate the number of sides given an interior angle
 def sides(angle):
