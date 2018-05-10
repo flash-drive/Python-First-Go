@@ -6,8 +6,10 @@
 
 # Function to find pizza slices to people ratio
 
+# Import math module to use truncate function
 import math
 
+# Function that determins ratio of pizza slices per person
 def pizzaShare(people,pizza):
     slices = int(pizza) * 8
     portions = slices / int(people)
