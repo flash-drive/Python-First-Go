@@ -7,7 +7,7 @@
 # Recall that the volume of a sphere is V = 4/3pir^3
 # Recall that the area of a sphere is A = 4pir^2
 
-# Import math module to use 
+# Import math module to use math.pi
 import math
 
 # Function that converts volume in cubic centimeters to surface area in centimeters
