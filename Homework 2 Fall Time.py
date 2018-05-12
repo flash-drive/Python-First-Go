@@ -2,7 +2,7 @@
 # Mark Tenorio 5/10/2018
 
 # Write a program that determines the time it takes for an object
-# to hit the ground at a given height
+# to hit the ground from a given height
 
 # Recall the kinematics equation:
 # distance = velocity(initial) * t + (1/2)*acceleration*time^2
