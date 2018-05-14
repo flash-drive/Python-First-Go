@@ -88,6 +88,12 @@
 # Start from 0 all the way to 100 in
 # increments of 2. [0,2,4,6,..100]
 
+# >> l = range(10)
+# >> l[::2]         # even  - start at the beginning at take every second item
+# [0, 2, 4, 6, 8]
+# >> l[1::2]        # odd - start at second item and take every second item
+# [1, 3, 5, 7, 9]
+
 # supplies = ['pens','staplers','flame-throwers','binders']
 # for i in range(len(supplies)):
 #   print('Index '+str(i)+' in supplies is: '+supplies[i])
