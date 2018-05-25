@@ -45,6 +45,21 @@ def deCoder(string):
     indices = [index for index, value in enumerate(somelist) if value == 't']
     indices = list(map(lambda x: x + 1, indices))
     somelist = [i for j, i in enumerate(somelist) if j not in indices]
+    indices = [index for index, value in enumerate(somelist) if value == 'f']
+    indices = list(map(lambda x: x + 1, indices))
+    somelist = [i for j, i in enumerate(somelist) if j not in indices]
+    indices = [index for index, value in enumerate(somelist) if value == 'r']
+    indices = list(map(lambda x: x + 1, indices))
+    somelist = [i for j, i in enumerate(somelist) if j not in indices]
+    indices = [index for index, value in enumerate(somelist) if value == 'u']
+    indices = list(map(lambda x: x + 1, indices))
+    somelist = [i for j, i in enumerate(somelist) if j not in indices]
+    indices = [index for index, value in enumerate(somelist) if value == 'i']
+    indices = list(map(lambda x: x + 1, indices))
+    somelist = [i for j, i in enumerate(somelist) if j not in indices]
+    indices = [index for index, value in enumerate(somelist) if value == 't']
+    indices = list(map(lambda x: x + 1, indices))
+    somelist = [i for j, i in enumerate(somelist) if j not in indices]
     somelist = ''.join(somelist)
     
     return somelist
